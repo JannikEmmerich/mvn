@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.m4rc3l.nova",
+    "module": "nova-core",
+    "version": "edge",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nova-core-edge.jar",
+          "url": "nova-core-edge.jar",
+          "size": 45147,
+          "sha512": "3e51ee49b059b24a222035b120bb5ba92ec7e14a915d75dcf3ac24f2bb27d8e610349a062ba2f03fe98806cb5fe836ea67487703513c9ac028e448188c59db41",
+          "sha256": "8b37518b517d63820862ffe438ac9562be5483c6cf08015d8a9a78225a825ae6",
+          "sha1": "184e72164c92d43958dc36e953403333c40d8367",
+          "md5": "555b878f2390fd9b8a89665b40af2ee0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nova-core-edge.jar",
+          "url": "nova-core-edge.jar",
+          "size": 45147,
+          "sha512": "3e51ee49b059b24a222035b120bb5ba92ec7e14a915d75dcf3ac24f2bb27d8e610349a062ba2f03fe98806cb5fe836ea67487703513c9ac028e448188c59db41",
+          "sha256": "8b37518b517d63820862ffe438ac9562be5483c6cf08015d8a9a78225a825ae6",
+          "sha1": "184e72164c92d43958dc36e953403333c40d8367",
+          "md5": "555b878f2390fd9b8a89665b40af2ee0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nova-core-edge-javadoc.jar",
+          "url": "nova-core-edge-javadoc.jar",
+          "size": 187310,
+          "sha512": "6cc2355dc6d94a1d5525d7111243810f7c4e4f04c2942863d51700daec29c804e876bdfb217365edf398dcecfba6bf5134bc681ca34491ce9179c77feaf014e6",
+          "sha256": "9afeca3e6f6c834dde27c531bae0b39b839d92f89b0c3e80394356352febf557",
+          "sha1": "356ba21f58d38b08a691a42f7900924e35be41de",
+          "md5": "dc9169c5dc4824711e3b73f78929804a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nova-core-edge-sources.jar",
+          "url": "nova-core-edge-sources.jar",
+          "size": 17388,
+          "sha512": "9f34a8aee4a0c5d73b36d52684b9acef50cb119ee2073d63e0c32a7b7ccb6475b6298b41bd6a538af85ec57284a6c937579cf6da78090e9fd06864ec1d3c2df9",
+          "sha256": "c3636aacde0dddbd9d690c541fca078fb30588ec4595342cb0ec5854c4adaadc",
+          "sha1": "0d789bd2bbcd7121cdac577705438a044d61c172",
+          "md5": "9f6f2caba11e1ed1dbf4ef563411e9b5"
+        }
+      ]
+    }
+  ]
+}
