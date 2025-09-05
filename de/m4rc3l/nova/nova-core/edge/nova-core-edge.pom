@@ -18,19 +18,19 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot</artifactId>
-      <version>3.2.1</version>
+      <version>3.5.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.15.3</version>
+      <version>2.19.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>2.0.9</version>
+      <version>2.0.17</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
@@ -42,22 +42,22 @@
     <nebula_Built_By>runner</nebula_Built_By>
     <nebula_Built_OS>Linux</nebula_Built_OS>
     <nebula_Build_Timezone>Etc/UTC</nebula_Build_Timezone>
-    <nebula_Build_Date_UTC>2025-09-05T17:51:11.547748646Z</nebula_Build_Date_UTC>
-    <nebula_Build_Date>2025-09-05_17:51:11</nebula_Build_Date>
+    <nebula_Build_Date_UTC>2025-09-05T18:11:08.354305393Z</nebula_Build_Date_UTC>
+    <nebula_Build_Date>2025-09-05_18:11:08</nebula_Build_Date>
     <nebula_Gradle_Version>8.5</nebula_Gradle_Version>
     <nebula_Module_Source>/nova-core</nebula_Module_Source>
     <nebula_Module_Origin>https://github.com/JannikEmmerich/nova</nebula_Module_Origin>
-    <nebula_Change>ad52cc6</nebula_Change>
-    <nebula_Full_Change>ad52cc6264d74b1f88f39a89888c8d497c7ee183</nebula_Full_Change>
+    <nebula_Change>9f08454</nebula_Change>
+    <nebula_Full_Change>9f08454fef9937bba883aa2563aa19cffb0b96ea</nebula_Full_Change>
     <nebula_Branch>main</nebula_Branch>
     <nebula_Build_Host>https://github.com</nebula_Build_Host>
     <nebula_Build_Job>__run_2</nebula_Build_Job>
-    <nebula_Build_Number>33</nebula_Build_Number>
-    <nebula_Build_Id>17500577165</nebula_Build_Id>
-    <nebula_Build_Url>https://github.com/JannikEmmerich/nova/actions/runs/17500577165</nebula_Build_Url>
+    <nebula_Build_Number>34</nebula_Build_Number>
+    <nebula_Build_Id>17500973708</nebula_Build_Id>
+    <nebula_Build_Url>https://github.com/JannikEmmerich/nova/actions/runs/17500973708</nebula_Build_Url>
     <nebula_Created_By>21.0.8+9-LTS (Eclipse Adoptium)</nebula_Created_By>
-    <nebula_X_Compile_Target_JDK>17</nebula_X_Compile_Target_JDK>
-    <nebula_X_Compile_Source_JDK>17</nebula_X_Compile_Source_JDK>
+    <nebula_X_Compile_Target_JDK>21</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>21</nebula_X_Compile_Source_JDK>
     <nebula_Build_Java_Version>21</nebula_Build_Java_Version>
     <nebula_Module_Owner></nebula_Module_Owner>
     <nebula_Module_Email></nebula_Module_Email>
@@ -67,7 +67,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>3.2.1</version>
+        <version>3.5.5</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
