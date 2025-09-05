@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.m4rc3l.nova",
+    "module": "nova-core",
+    "version": "5.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nova-core-5.0.0.jar",
+          "url": "nova-core-5.0.0.jar",
+          "size": 45157,
+          "sha512": "6322d0ebbd2ebb797e9dc84a50d74b7ca7ea92ab76642dcd81536d332b5674f7acfd9f47adf160dc0fe4e8a10cf1abb2bee7c528d45cf8c68b0db8a92f3b896b",
+          "sha256": "8439fdc3b36076ffc97c87393ea8b704a3ba2095a14504ea70e43413c45aa59b",
+          "sha1": "6c7286f2c0e8648b64ae5a4e4d9ae4d37d477aef",
+          "md5": "6941bd04907699b451e3cebdee11d774"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nova-core-5.0.0.jar",
+          "url": "nova-core-5.0.0.jar",
+          "size": 45157,
+          "sha512": "6322d0ebbd2ebb797e9dc84a50d74b7ca7ea92ab76642dcd81536d332b5674f7acfd9f47adf160dc0fe4e8a10cf1abb2bee7c528d45cf8c68b0db8a92f3b896b",
+          "sha256": "8439fdc3b36076ffc97c87393ea8b704a3ba2095a14504ea70e43413c45aa59b",
+          "sha1": "6c7286f2c0e8648b64ae5a4e4d9ae4d37d477aef",
+          "md5": "6941bd04907699b451e3cebdee11d774"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nova-core-5.0.0-javadoc.jar",
+          "url": "nova-core-5.0.0-javadoc.jar",
+          "size": 187462,
+          "sha512": "b967553ece4ae16c067a0a726f9487418ba9c5eb2edce6c702958d422e125fdc9a354d5a0540ddb8f35e4859b4f70927f876432c09e456a1b5beca9571291356",
+          "sha256": "9b53a703413cfc07d9402dc4fae256e8612d55674702520cd8e460428a7a22f5",
+          "sha1": "4cf7c9d1dc47995a0fa4647e518c26492ec41544",
+          "md5": "23b28acfea3fdb1c444ff7b1233ae792"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nova-core-5.0.0-sources.jar",
+          "url": "nova-core-5.0.0-sources.jar",
+          "size": 17393,
+          "sha512": "be880ea30c02bc3f5b60d829bdf7cfa8f4e5b6d55f9a692aa6139176ff1416d6fa1b848b475cc39cf9f7e4e5f0c0970fbc3e2028fb0dd1adbb6fe1ec820c9325",
+          "sha256": "b4ec279f85407cbbda1f6be596acf515029585694d9d6b364644cd3c693e69f1",
+          "sha1": "c053843eec9d8737940913cfaac21fa13351037d",
+          "md5": "82dc0162798527df96a8e429af8b8736"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.m4rc3l.nova",
+    "module": "nova-data-jpa",
+    "version": "5.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.5.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nova-data-jpa-5.0.0.jar",
+          "url": "nova-data-jpa-5.0.0.jar",
+          "size": 16318,
+          "sha512": "717305c36967558b0f5ea20593a90b828fe1cdc5a51583a50ea8b683337378d9dddc20251ff145921be32ce06e188b8e163c9247a43c133e207092b638d1b841",
+          "sha256": "55b7cf83d69cd7d0c18c8f717cc2f46b73376b16741afa6d1c58885dc1c2ce5f",
+          "sha1": "3a8cf0e2b01e73b0e042bda1e18c691651575eb0",
+          "md5": "3a92ca3d1c7574f4e828b520601e1a61"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.hibernate.orm",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "6.4.4.Final"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.5.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nova-data-jpa-5.0.0.jar",
+          "url": "nova-data-jpa-5.0.0.jar",
+          "size": 16318,
+          "sha512": "717305c36967558b0f5ea20593a90b828fe1cdc5a51583a50ea8b683337378d9dddc20251ff145921be32ce06e188b8e163c9247a43c133e207092b638d1b841",
+          "sha256": "55b7cf83d69cd7d0c18c8f717cc2f46b73376b16741afa6d1c58885dc1c2ce5f",
+          "sha1": "3a8cf0e2b01e73b0e042bda1e18c691651575eb0",
+          "md5": "3a92ca3d1c7574f4e828b520601e1a61"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nova-data-jpa-5.0.0-javadoc.jar",
+          "url": "nova-data-jpa-5.0.0-javadoc.jar",
+          "size": 98301,
+          "sha512": "2d3dd818f6fa686fd954e2e8ffdea0ae83932664fad5d228c827a6dc95647675460cf76c7dd36b739f91e3eb686b7c024de70a77a2ae202d70a34662c6e5e85a",
+          "sha256": "af0ca5c2410805ddfdacfb4f7577d046cf6940184d61d1f04ce9e305921b128e",
+          "sha1": "94a52c9b0afaaae73436f1731d671887914565b0",
+          "md5": "af66821de85de43d2949d16d0c6064fc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nova-data-jpa-5.0.0-sources.jar",
+          "url": "nova-data-jpa-5.0.0-sources.jar",
+          "size": 3465,
+          "sha512": "1e4e8b19c908774eaa56c6078ebc28ef62c975ade3cdbd00395828fc47365761cca10ebc939e28dd112edf16bc567c08cc86f8a2a3558bec796f76e986dd70b5",
+          "sha256": "3ad03477c886e6b7323c3acd089fa7e5856926e9842f338be76e372957d94abe",
+          "sha1": "c045625cd20e89dcc4738de39234dc878ed9910a",
+          "md5": "3bf0f6b492ebdb1d75cb853a33b41edf"
+        }
+      ]
+    }
+  ]
+}
